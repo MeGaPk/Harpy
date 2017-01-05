@@ -1,7 +1,7 @@
 # Harpy
 ### Notify users when a new version of your app is available and prompt them to upgrade.
 
-![Travis-CI](https://travis-ci.org/ArtSabintsev/Harpy.svg?branch=master) ![Cocoapods](https://img.shields.io/cocoapods/v/Harpy.svg) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+![Travis-CI](https://travis-ci.org/ArtSabintsev/Harpy.svg?branch=master) [![CocoaPods](https://img.shields.io/cocoapods/v/Harpy.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dt/Harpy.svg)]() [![CocoaPods](https://img.shields.io/cocoapods/dm/Harpy.svg)]()
 ---
 
 ## About
@@ -18,7 +18,7 @@ Harpy has been ported to Swift by myself and [**Aaron Brager**](http://twitter.c
 ## Features
 - [x] CocoaPods Support
 - [x] Carthage Support
-- [x] Localized for 20+ languages (See **Localization**)
+- [x] Localized for 30+ languages (See **Localization**)
 - [x] Pre-Update Device Compatibility Check (See **Device Compatibility**)
 - [x] Three types of alerts (see **Screenshots & Alert Types**)
 - [x] Optional delegate methods (see **Optional Delegate** section)
@@ -171,7 +171,39 @@ If you would like to use your own UI, please use the following delegate method t
 ```
 
 ## Localization
-Harpy has localizations for Arabic, Basque, Chinese (Simplified), Chinese (Traditional), Danish, Dutch, English, Estonian, French, German, Hebrew, Hungarian, Italian, Japanese, Korean, Latvian, Lithuanian, Malay, Polish, Portuguese (Brazil), Portuguese (Portugal), Russian, Slovenian, Swedish, Spanish, Thai, Turkish, and Vietnamese.
+Harpy is localized for
+- Arabic
+- Armenian
+- Basque
+- Chinese (Simplified and Traditional)
+- Danish
+- Dutch
+- English
+- Estonian
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Latvian
+- Lithuanian
+- Malay
+- Norwegian (Bokmål)
+- Polish
+- Portuguese (Brazil and Portugal)
+- Russian
+- Serbian (Cyrillic and Latin)
+- Slovenian
+- Swedish
+- Spanish
+- Thai
+- Turkish
+- Vietnamese
 
 You may want the update dialog to *always* appear in a certain language, ignoring iOS's language setting (e.g. apps released in a specific country).
 
